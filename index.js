@@ -8,7 +8,7 @@ c.fillRect(0, 0, canvas.width, canvas.height)
 const gravity = 0.2
 
 class Sprite {
-  constructor({position, velocity, imageSrc, scale = 1, framesMax = 1, offset = { x: 0, y: 0 },}) {
+  constructor({position, velocity, imageSrc, scale = 1, framesMax = 1, offset = { x: 0, y: 0 }}) {
     this.position = position
     this.velocity = velocity
     this.width = 50
@@ -64,7 +64,7 @@ class Sprite {
 
 const player = new Sprite({
   position: {
-    x: 450,
+    x: 350,
     y: 0
   },
   velocity: {
