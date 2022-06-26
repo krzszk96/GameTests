@@ -71,13 +71,13 @@ const player = new Sprite({
     x: 0,
     y: 10
   },
-  imageSrc: './img/Wizard Pack/Idle.png',
+  imageSrc: './img/Wizard/Idle.png',
   framesMax: 6,
   offset: {
     x: 0,
     y: 104
   }, 
-  scale: 1.8 
+  scale: 1.8
 })
 
 function animate(){
